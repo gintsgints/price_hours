@@ -12,7 +12,7 @@ pub struct PeriodPrice {
 }
 
 pub struct PeriodPrices {
-    prices: Vec<PeriodPrice>,
+    pub prices: Vec<PeriodPrice>,
 }
 
 impl PeriodPrices {
